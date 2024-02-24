@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(50, 47, 47);
+}
+.carusel__wrapper{
+    height: 800px;
+    img{
+        height: 800px;
+        object-fit: cover;
+    }
+}
+.input{
+    background-color: rgb(40, 38, 38);
+}
+.movises__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    li{
+        margin-top: 50px;
+    }
+}
+.kino__wrapper{
+    margin-top: 150px;
+}
+
+
+
+   
